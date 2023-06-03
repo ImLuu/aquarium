@@ -1,0 +1,16 @@
+
+.cabezal{
+    background-color: whitesmoke;
+    border-style: groove;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.interior{
+    font-size: 95%;
+    color: green;
+    margin-right: 75%;
+    
+}
+
