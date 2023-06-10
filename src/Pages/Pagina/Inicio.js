@@ -4,6 +4,7 @@ import Header from '../../Components/Head/Header';
 import Tarjets from '../../Components/Tarjet/Tarjets';
 import Tarjeta from '../../Components/Tarjet/Tarjeta';
 
+
  function Inicio() {
   return (
     <>
