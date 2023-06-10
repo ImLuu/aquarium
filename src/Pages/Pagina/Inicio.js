@@ -1,16 +1,15 @@
 import React from 'react'
+import './Inicio.css'
 import Header from '../../Components/Head/Header';
 import Tarjets from '../../Components/Tarjet/Tarjets';
-import './Inicio.css'
-
-
+import Tarjeta from '../../Components/Tarjet/Tarjeta';
 
  function Inicio() {
   return (
     <>
-        <Header/>
-        <Tarjets/>
-
+      <Header/>
+      <Tarjets/>
+      <Tarjeta/>
     </>
   )
 }

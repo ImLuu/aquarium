@@ -1,5 +1,4 @@
-.cartas{
-    
+.cartas{  
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     padding:20px;
@@ -9,6 +8,7 @@
 .carta{
     height: 200px;
     background-color: whitesmoke;
+
     border-radius: 2%;
     border-style: groove;
 }

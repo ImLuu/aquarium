@@ -14,7 +14,7 @@ function SearchBar() {
     };
   
     return (
-      <div className="search-bar" >
+      <div className="search-bar" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-20px' }}>
         <input 
           type="text"
           value={searchTerm}
