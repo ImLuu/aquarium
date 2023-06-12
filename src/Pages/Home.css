@@ -1,14 +1,15 @@
 .cartas{  
+    
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    padding:20px;
-    gap:20px
-}
-
+    gap: 1rem;
+  
+  }
+  
 .carta{
     height: 200px;
     background-color: whitesmoke;
-
     border-radius: 2%;
     border-style: groove;
+   
 }

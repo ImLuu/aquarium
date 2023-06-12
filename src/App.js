@@ -1,9 +1,27 @@
 import React from 'react';
-import Inicio from "./Pages/Pagina/Inicio";
+import './App.scss'
+import {BrowserRouter as Router , Route}from 'react-router-dom';
+import Header from './Components/Head/Header';
+import Sidebar from './Components/SideBar/Sidebar';
+import Home from './Pages/Home'
+
+
+
 function App() {
   return (
     <>
-    <Inicio/>
+    <Router>
+      <Header/>
+      
+      <div className='flex'>
+      <Sidebar/>   
+      <div className='content'>
+        <Home/>
+      </div>
+        
+      </div>
+
+    </Router>
     </>
   );
 }

@@ -1,12 +1,12 @@
 import React from 'react'
-import './Header.css'
 import SearchBar from '../SearchBar/SearchBar';
 
-function Header() {
+
+const Header = () => {
   return (
     <>
         <div className='cabezal'> 
-          <div className='interior' >C19 Arduino Control</div> 
+          <div className='interior' ><text className='texto-internior'>C19 Arduino Control</text></div> 
           <SearchBar/>
         </div>
         

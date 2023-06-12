@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import './SearchBar.css'
 
-function SearchBar() {
+
+const SearchBar=() => {
     const [searchTerm, setSearchTerm] = useState('');
   
     const handleSearch = () => {
@@ -14,7 +14,7 @@ function SearchBar() {
     };
   
     return (
-      <div className="search-bar" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-20px' }}>
+      <div className="search-bar" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-20px'}}>
         <input 
           type="text"
           value={searchTerm}
